@@ -907,14 +907,14 @@ ul.hb-list li h6 {
 }
 
 .block-quote .block-profile {
-    font-size: 16px;
+    font-size: 15px;
 	font-weight: 700;
 }
 
 
 .block-quote .block-profile span {
     color: #777777;
-    font-size: 13.5px;
+    font-size: 14px;
 	font-weight: 400;
 	display:block;
 	font-style:italic;
@@ -1015,14 +1015,14 @@ ul.hb-list li h6 {
 	font-weight: 400;
 	height:35px;
 	margin:auto;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .work .item a .desc h5 span {
     display:block;
 	text-transform:none;
 	position:relative;
-	font-size: 13.5px;
+	font-size: 16px;
 	font-weight: 400;
 	font-style:italic;
 	opacity: 0.75;
