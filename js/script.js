@@ -10,19 +10,22 @@ $('.open-popup-link').magnificPopup(
 
 
 
+// var $item = $('.work').isotope({
+//     iteSelector: '.items'
+// })
 
 
 
-$('.f').on('click', function () {
-    var filter = $(this).attr('data-filter');
-    var parents = $(this).parents('.filter');
-    parents.find('.active').removeClass('active');
-    $(this).addClass('active');
-    console.log(`.${filter}`)
-    $item.isotope({
-        filter: `.${filter}`
-    });
-})
+// $('.f').on('click', function () {
+//     var filter = $(this).attr('data-filter');
+//     var parents = $(this).parents('.filter');
+//     parents.find('.active').removeClass('active');
+//     $(this).addClass('active');
+//     console.log(`.${filter}`)
+//     $item.isotope({
+//         filter: `.${filter}`
+//     });
+// })
 
 
 
