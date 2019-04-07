@@ -9,25 +9,27 @@ $('.open-popup-link').magnificPopup(
 );
 
 
-var $item = $('.work').isotope({
-    iteSelector : '.items'
-})
-console.log($item)
 
-var filters = {};
 
-$('.f').on('click',function () {
-  var filter = $(this).attr('data-filter');
-  var parents = $(this).parents('.filter');
-  parents.find('.active').removeClass('active');
-  $(this).addClass('active');
-  console.log(`.${filter}`)
-  $item.isotope({
-      filter: `.${filter}`
-  });
+
+
+$('.f').on('click', function () {
+    var filter = $(this).attr('data-filter');
+    var parents = $(this).parents('.filter');
+    parents.find('.active').removeClass('active');
+    $(this).addClass('active');
+    console.log(`.${filter}`)
+    $item.isotope({
+        filter: `.${filter}`
+    });
 })
+
+
+
+
 
 $(document).ready(function () {
+    
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         items: 1,
@@ -39,4 +41,6 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
+
 });
+
